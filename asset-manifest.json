@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f9d3d2f.css",
-    "main.js": "/static/js/main.6bcbd6a8.js",
-    "static/media/903apps.jpg": "/static/media/903apps.acf43b24ddbcc8d7fb0b.jpg",
-    "static/media/map1.jpg": "/static/media/map1.ee9b17076e28214a5fc5.jpg",
-    "static/media/map3.jpg": "/static/media/map3.5480f9f1653cf7d4de1a.jpg",
-    "static/media/map2.jpg": "/static/media/map2.9d6095a93f6e8873f05a.jpg",
-    "static/media/silvertop.jpg": "/static/media/silvertop.0147fac50a5673d16f90.jpg",
-    "static/media/silver-top-bg1.jpg": "/static/media/silver-top-bg1.41cf558bab8d8e42d9c1.jpg",
-    "static/media/silver-top-bg2.jpg": "/static/media/silver-top-bg2.6b1218340e529744433f.jpg",
-    "static/media/prov-bg2.jpg": "/static/media/prov-bg2.8aae23dabea3d82347dd.jpg",
-    "static/media/prov-bg1.jpg": "/static/media/prov-bg1.dc13595b9c7d50f39109.jpg",
-    "static/media/silver-top-bg3.jpg": "/static/media/silver-top-bg3.64528e90bdb533d34106.jpg",
-    "static/media/903-bg1.jpg": "/static/media/903-bg1.ed391fd84b85d7205e67.jpg",
-    "index.html": "/index.html",
-    "main.4f9d3d2f.css.map": "/static/css/main.4f9d3d2f.css.map",
-    "main.6bcbd6a8.js.map": "/static/js/main.6bcbd6a8.js.map"
+    "main.css": "/urbn1871a-final-project/static/css/main.4f9d3d2f.css",
+    "main.js": "/urbn1871a-final-project/static/js/main.535f7a3c.js",
+    "static/media/903apps.jpg": "/urbn1871a-final-project/static/media/903apps.acf43b24ddbcc8d7fb0b.jpg",
+    "static/media/map1.jpg": "/urbn1871a-final-project/static/media/map1.ee9b17076e28214a5fc5.jpg",
+    "static/media/map3.jpg": "/urbn1871a-final-project/static/media/map3.5480f9f1653cf7d4de1a.jpg",
+    "static/media/map2.jpg": "/urbn1871a-final-project/static/media/map2.9d6095a93f6e8873f05a.jpg",
+    "static/media/silvertop.jpg": "/urbn1871a-final-project/static/media/silvertop.0147fac50a5673d16f90.jpg",
+    "static/media/silver-top-bg1.jpg": "/urbn1871a-final-project/static/media/silver-top-bg1.41cf558bab8d8e42d9c1.jpg",
+    "static/media/silver-top-bg2.jpg": "/urbn1871a-final-project/static/media/silver-top-bg2.6b1218340e529744433f.jpg",
+    "static/media/prov-bg2.jpg": "/urbn1871a-final-project/static/media/prov-bg2.8aae23dabea3d82347dd.jpg",
+    "static/media/prov-bg1.jpg": "/urbn1871a-final-project/static/media/prov-bg1.dc13595b9c7d50f39109.jpg",
+    "static/media/silver-top-bg3.jpg": "/urbn1871a-final-project/static/media/silver-top-bg3.64528e90bdb533d34106.jpg",
+    "static/media/903-bg1.jpg": "/urbn1871a-final-project/static/media/903-bg1.ed391fd84b85d7205e67.jpg",
+    "index.html": "/urbn1871a-final-project/index.html",
+    "main.4f9d3d2f.css.map": "/urbn1871a-final-project/static/css/main.4f9d3d2f.css.map",
+    "main.535f7a3c.js.map": "/urbn1871a-final-project/static/js/main.535f7a3c.js.map"
   },
   "entrypoints": [
     "static/css/main.4f9d3d2f.css",
-    "static/js/main.6bcbd6a8.js"
+    "static/js/main.535f7a3c.js"
   ]
 }
