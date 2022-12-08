@@ -1,6 +1,7 @@
 {
   "name": "providence-project",
   "version": "0.1.0",
+  "homepage": "https://john2360.github.io/urbn1871a-final-project",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",

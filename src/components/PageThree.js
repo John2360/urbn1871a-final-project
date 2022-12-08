@@ -1,6 +1,5 @@
 import React from 'react'
 import Accordian from './Accordian'
-import DownButton from './DownButton'
 
 import map1 from '../assets/images/map1.jpg'
 import map2 from '../assets/images/map2.jpg'
