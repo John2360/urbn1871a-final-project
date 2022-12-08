@@ -1,38 +1,230 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .App {
-  text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.page-wrapper {
+    height: 110vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.down-button {
+    position: absolute;
+    bottom: 0;
+    animation: MoveUpDown 2s linear infinite;
+
+    text-align: center;
+
+    width: 200px;
+    height: 200px;
+
+    font-size: 10rem;
+    color: #fff;
+}
+
+.down-button > a {
+    color: white !important;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 10px;
+    }
   }
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    padding-top: 100px;
+  }
+@media (min-width: 768px) {
+.container {
+    width: 750px;
+}
+}
+@media (min-width: 992px) {
+.container {
+    width: 970px;
+}
+}
+@media (min-width: 1200px) {
+.container {
+    width: 1170px;
+}
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#page2 > .page-content {
+    background-color: rgba(0,0,0, .4);
+    padding: 50px;
+
+    width: 550px;
+
+    backdrop-filter: blur(2px);
+
+    color: white;
+    border-radius: 4px;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 0px!important;
+}
+.accordian {
+  height: 60px;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+  background-color: #bfbfbf;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  margin-bottom: 5px;
+  cursor: pointer;
+
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.accordian-title {
+  font-size: 2rem;
+  font-weight: 500;
+
+  text-align: left;
+  width: 90%;
+
+  margin: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.accordian-drop {
+  width: 10%;
+  font-size: 3rem;
+  font-weight: 800;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.accordian-content {
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 0px!important;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.accordian-split {
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-start;
+
+  flex-direction: row;
+}
+
+.stat-tile {
+  width: 350px;
+  height: 200px;
+
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.stat-icon {
+  font-size: 9rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-text > h3 {
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0px!important;
+
+}
+
+.stat-text > h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: bold;
+
+  line-height: 1;
+  margin: 0px!important;
+}
+
+.stat-tile-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+  max-width: 100%;
+
+  overflow-x: scroll;
+
+  margin-top: 50px;
+
+  gap: 40px;
+
+  height: 250px;
+}
+
+.dinner-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bg-dinner {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
 }
