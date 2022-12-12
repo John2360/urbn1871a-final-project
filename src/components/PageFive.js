@@ -83,6 +83,76 @@ function PageFive() {
                 "stat": "Social Services",
                 "icon": FaRegHospital
             }
+        ],
+        "value": [
+            {
+                "year": "1960",
+                "stat": "$113,797",
+                "icon": AiOutlineDash
+            },
+            {
+                "year": "1970",
+                "stat": "$81,495",
+                "icon": TiArrowDown
+            },
+            {
+                "year": "1990",
+                "stat": "$165,587",
+                "icon": TiArrowUp
+            },
+            {
+                "year": "2000",
+                "stat": "$144,784",
+                "icon": TiArrowDown
+            },
+            {
+                "year": "2010",
+                "stat": "$303,397",
+                "icon": TiArrowUp
+            }
+        ],
+        "income": [
+            {
+                "year": "1950",
+                "stat": "$29,947",
+                "icon": AiOutlineDash
+            },
+            {
+                "year": "1960",
+                "stat": "$42,673",
+                "icon": TiArrowUp
+            },
+            {
+                "year": "1970",
+                "stat": "$62,941",
+                "icon": TiArrowUp
+            },
+            {
+                "year": "1980",
+                "stat": "$41,645",
+                "icon": TiArrowDown
+            },
+            {
+                "year": "1990",
+                "stat": "$64,307",
+                "icon": TiArrowUp
+            },
+            {
+                "year": "2000",
+                "stat": "$49,685",
+                "icon": TiArrowDown
+            },
+            {
+                "year": "2010",
+                "stat": "$67,333",
+                "icon": TiArrowUp
+            }
+            ,
+            {
+                "year": "2020",
+                "stat": "$84,370",
+                "icon": TiArrowUp
+            }
         ]
       }
 
@@ -92,10 +162,10 @@ function PageFive() {
     }
 
   return (
-    <div className='page-wrapper' id='page5' style={{height: 'auto', minHeight: '100vh', alignItems: 'flex-start'}}>
+    <div className='page-wrapper' id='page5' style={{height: 'auto', minHeight: '110vh', alignItems: 'flex-start'}}>
         <div className='container'>
             <h1>Census Data</h1>
-            <p>Using cenus data from the Smith Hill area and Downtown we can begin to assemble the picture of how these city planning decisions affected real people's lifes. Select a category below to see how over time frame of the policies census demographics changed.</p>
+            <p>Using census data from the Smith Hill area and Downtown, we can begin to assemble the picture of how changes in Providence’s economy, along with planning decisions made in part in response to those changes, affected real people's lives. Select a category below to see how over time the city’s census demographics changed, at least partially in response to these planning policies.</p>
             <Select options={options} onChange={setSelectedOption} defaultValue={selectedOption} />
             <div className='stat-tile-wrapper'>
                 {
