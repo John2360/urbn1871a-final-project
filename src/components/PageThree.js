@@ -9,9 +9,10 @@ import map3 from '../assets/images/map3.jpg'
 function PageThree() {
     
   return (
-    <div className='page-wrapper' id='page3' style={{height: 'auto', minHeight: '110vh', alignItems: 'flex-start'}}>
-        <div className='container'>
+    <div className='page-wrapper' id='page3' style={{height: 'auto', minHeight: '120vh', alignItems: 'flex-start'}}>
+        <div className='container' style={{paddingBottom: 200}}>
             <h1>Let's Talk Policy</h1>
+            <p>At the beginning of the twentieth century, Providence was  “the most industrialized city in the US and was known as the ‘armpit of New England’” (Creative Community Building, 93). Providence had been devoted to the textile industry, machine tool industry, and jewelry industry. The city had made several changes to the downtown urban environment to accommodate the needs of industry. It had added a massive highway cutting through downtown, a large railway that covered entirely over the old cove and river, and more rail, roads, and parking spaces that covered up other rivers throughout the city. As the industry began to die, the city set out to make itself a more attractive place to live in a nonindustrial era.</p>
             <p>From 1960 to 2000, the Providence city government approved seven plans to develop downtown and the surrounding areas. Three of these seven plans were never developed, and one of these plans focused primarily on the College Hill area, not downtown. That leaves three major plans that shaped the downtown and surrounding neighborhoods. With the downtown area losing its industry, planners were attempting to find ways to draw people back to a center city that would be focused on things other than industry.</p>
             <Accordian title={"Policy 1: Downtown Providence 1970"} text={<div className='accordian-split'>
                 <div style={{width: '55%', padding: 5}}>

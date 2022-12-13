@@ -11,13 +11,13 @@ import { FaRegHospital } from 'react-icons/fa';
 
 function PageFive() {
     const options = [
-        { value: 'income', label: 'Family Income' },
-        { value: 'value', label: 'House Value' },
+        { value: 'value', label: 'Median House Value' },
+        { value: 'income', label: 'Median Family Income' },
         { value: 'occupation', label: 'Dominant Occupation' },
         { value: 'education', label: 'Percentage Of Population with College Degree' }
 
       ]
-      const [selectedOption, setSelectedOption] = useState(options[2]);
+      const [selectedOption, setSelectedOption] = useState(options[0]);
 
       const data = {
         "education": [
@@ -158,11 +158,13 @@ function PageFive() {
 
     const dataExplanation = {
         "occupation": "We can see that over time the population of Smith Hill and Downtown has shifted from a heavy industrial workforce to a more professional workforce.",
-        "education": "We can see over time that the Smith Hill and Downtown population has become more educated."
+        "education": "We can see over time the Smith Hill and Downtown population has become more educated.",
+        "income": "We can see that over time the mediam family income increases for residents of Smith Hill and Downtown.",
+        "value": "We can see that over time the median house value increases for residents of Smith Hill and Downtown."
     }
 
   return (
-    <div className='page-wrapper' id='page5' style={{height: 'auto', minHeight: '110vh', alignItems: 'flex-start'}}>
+    <div className='page-wrapper' id='page5' style={{height: 'auto', minHeight: '120vh', alignItems: 'flex-start'}}>
         <div className='container'>
             <h1>Census Data</h1>
             <p>Using census data from the Smith Hill area and Downtown, we can begin to assemble the picture of how changes in Providence’s economy, along with planning decisions made in part in response to those changes, affected real people's lives. Select a category below to see how over time the city’s census demographics changed, at least partially in response to these planning policies.</p>
@@ -174,7 +176,8 @@ function PageFive() {
                     })
                 }
             </div>
-            <p>Scroll to see the data points above. {dataExplanation[selectedOption.value]}</p>
+            <p>{dataExplanation[selectedOption.value]}</p>
+            <i style={{}}>Scroll to the right to view more data points.</i>
         </div>
     </div>
   )
