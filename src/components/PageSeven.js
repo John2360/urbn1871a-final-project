@@ -26,7 +26,7 @@ function PageSix() {
 
 <p>However, the appeal for most people was not the beautiful art deco design but rather the access to yummy food at convenient times. The diner catered to a mostly working-class clientele, a majority of which worked at the fruit and produce market just down the road. "One frequentor succinctly summed up his attitude toward fish-scale air vents: ‘Decor is for broads.’ The Fairway Diner up the street gets ‘the office workers more,’ says Mrs. Ladish, ‘we’re more working class’" (“At the Silver Top, the Talk Matters, Not the Decor.”).</p>
 
-<p>While the diner had a catered to cabbies and truck drivers, the primary customers were the workers of the fruit and produce market. The Silver Top diner, "[was] wedded to the wholesale produce market across the street and the men who make their livelihoods on its platform" (“At the Silver Top, the Talk Matters, Not the Decor.”).</p>
+<p>While the diner had a catered to cabbies and truck drivers, the primary customers were the workers of the fruit and produce market. The Silver Top Diner, "[was] wedded to the wholesale produce market across the street and the men who make their livelihoods on its platform" (“At the Silver Top, the Talk Matters, Not the Decor.”).</p>
                     <div className='bg-dinner' style={{backgroundImage: `url(${bg3})`, marginBottom: 10}}></div>
                     <i>In the image above, the fruit market is on the left (accross the street) and the Silver Top Diner sits on the right</i>
                 </div>
@@ -35,8 +35,8 @@ function PageSix() {
             <Accordian title={"The Diner's Downfall"} text={<div className='accordian-split'>
                 <div >
                   <p>In 1988, as part of the Capital Center Project Development Plan, the fruit and produce market was purchased by the government and shut down. What now stands over this old market is part of the I-95. </p>
-<p>With the loss of the fruit and produce market, coupled with the prior closing of other industrial sites, the Silver Top Diner lost its core business. In 2002, Mayor Vincent A. Cianci, Jr., sold the parcel of land on which the Silver Top dining car sat to the developer of luxury apartments - the 903 at Jefferson Place. ArtinRuins. “Once surrounded by the Providence Fruit and Produce Warehouse, Merchants Cold Storage, Brown & Sharpe, and others, the departure of the Silver Top marks a changeover from city of industry to city of apartments” (“At the Silver Top, the Talk Matters, Not the Decor.”).</p>
-<p>After the land was sold the diner was lifted up and placed on a truck. They moved the diner to a new location in Pawtucket.</p>
+<p>With the loss of the fruit and produce market, coupled with the prior closing of other industrial sites, the Silver Top Diner lost its core business. In 2002, Mayor Vincent A. Cianci, Jr., sold the parcel of land on which the Silver Top dining car sat to the developer of luxury apartments - the 903 at Jefferson Place (“Silver Top Diner.”). “Once surrounded by the Providence Fruit and Produce Warehouse, Merchants Cold Storage, Brown & Sharpe, and others, the departure of the Silver Top marks a changeover from city of industry to city of apartments” (“At the Silver Top, the Talk Matters, Not the Decor.”).</p>
+<p>After the land was sold, the diner was lifted up and placed on a truck. They moved the diner to a new location in Pawtucket.</p>
               <div className='bg-dinner' style={{backgroundImage: `url(${bg1})`, height: '400px'}}></div>
                 
                 </div>
