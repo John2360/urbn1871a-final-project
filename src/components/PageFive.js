@@ -159,8 +159,8 @@ function PageFive() {
     const dataExplanation = {
         "occupation": "We can see that over time the population of Smith Hill and Downtown has shifted from a heavy industrial workforce to a more professional workforce.",
         "education": "We can see over time the Smith Hill and Downtown population has become more educated.",
-        "income": "We can see that over time the mediam family income increases for residents of Smith Hill and Downtown.",
-        "value": "We can see that over time the median house value increases for residents of Smith Hill and Downtown."
+        "income": "We can see that over time the mediam family income increases for residents of Smith Hill and Downtown. These numbers have been converted to 2022 value.",
+        "value": "We can see that over time the median house value increases for residents of Smith Hill and Downtown. These numbers have been converted to 2022 value."
     }
 
   return (
