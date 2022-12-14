@@ -178,6 +178,7 @@ function PageFive() {
             </div>
             <p>{dataExplanation[selectedOption.value]}</p>
             <i style={{}}>Scroll to the right to view more data points.</i>
+            <i style={{}}> U.S. Census Bureau. Social Explorer. Web.</i>
         </div>
     </div>
   )
