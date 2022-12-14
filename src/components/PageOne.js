@@ -7,7 +7,7 @@ import DownButton from './DownButton';
 
 function PageOne() {
   return (
-    <div className='page-wrapper'>
+    <div className='page-wrapper' style={{height: '100vh'}}>
         <ReactCompareSlider
           itemOne={<ReactCompareSliderImage src={SilverTopImg} alt="Image one" />}
           itemTwo={<ReactCompareSliderImage src={NewAppsImg}  alt="Image two" />}
